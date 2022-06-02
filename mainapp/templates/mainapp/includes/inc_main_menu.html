@@ -1,0 +1,21 @@
+<a href="{% url 'index' %}" class="logo"></a>
+<ul class="menu">
+    <li><a href="{% url 'index' %}" {% if request.resolver_match.url_name == 'index' %} class="active" {% endif %} >домой</a></li>
+    <li><a href="{% url 'products:products_hot_product' %}" {% if request.resolver_match.url_name == 'products' %} class="active" {% endif %} >продукты</a></li>
+    <li><a href="{% url 'contact' %}" {% if request.resolver_match.url_name == 'contact' %} class="active" {% endif %} >контакты</a></li>
+    {% if user.is_authenticated %}
+        <li>
+            <a href="{% url 'authapp:edit' %}">{{ user.first_name|default:'Пользователь' }}</a>
+        </li>
+        <li>
+            <a href="{% url 'authapp:logout' %}">выход</a>
+        </li>
+
+    {% else %}
+        <li>
+            <a href="{% url 'authapp:login' %}">вход</a>
+        </li>
+    {% endif %}
+</ul>
+<a href="#" class="search"></a>
+<a href="#" class="basket"></a>
