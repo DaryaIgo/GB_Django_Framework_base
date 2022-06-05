@@ -1,0 +1,13 @@
+{% extends 'authapp/base.html' %}
+
+{% block content %}
+    <form class="form-horizontal col-10" method="post" action="{% url 'authapp:edit' %}"
+          enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn btn-primary" type="submit">Сохранить</button>
+    </form>
+    <div class="user_avatar">
+    <a class="btn btn-link" href="{% url 'index' %}" style="width: 100%">На главную</a>
+    </div>
+{% endblock %}
