@@ -1,0 +1,74 @@
+[
+  {
+    "category": "дом",
+    "name": "Дом1",
+    "image": "product/product-1.jpg",
+    "short_desc": "Краткое описание дом1",
+    "description": "Длинное красивое описание для товара дом1",
+    "price": 1500.0,
+    "quantity": 10
+  },
+  {
+    "category": "дом",
+    "name": "Дом2",
+    "image": "product/product-2.jpg",
+    "short_desc": "Краткое описание дом2",
+    "description": "Длинное красивое описание для товара дом2",
+    "price": 1700.0,
+    "quantity": 10
+  },
+  {
+    "category": "офис",
+    "name": "Офис1",
+    "image": "product/product-3.jpg",
+    "short_desc": "Краткое описание офис1",
+    "description": "Длинное красивое описание для товара офис1",
+    "price": 800.0,
+    "quantity": 10
+  },
+  {
+    "category": "офис",
+    "name": "Офис2",
+    "image": "product/product-4.jpg",
+    "short_desc": "Краткое описание офис2",
+    "description": "Длинное красивое описание для товара офис2",
+    "price": 1300.0,
+    "quantity": 10
+  },
+  {
+    "category": "модерн",
+    "name": "Модерн1",
+    "image": "product/product-11.jpg",
+    "short_desc": "Краткое описание модерн1",
+    "description": "Длинное красивое описание для товара модерн1",
+    "price": 2100.0,
+    "quantity": 10
+  },
+  {
+    "category": "модерн",
+    "name": "Модерн2",
+    "image": "product/product-21.jpg",
+    "short_desc": "Краткое описание модерн2",
+    "description": "Длинное красивое описание для товара модерн2",
+    "price": 450.0,
+    "quantity": 10
+  },
+  {
+    "category": "классика",
+    "name": "Классика1",
+    "image": "product/product-31.jpg",
+    "short_desc": "Краткое описание классика1",
+    "description": "Длинное красивое описание для товара классика1",
+    "price": 500.0,
+    "quantity": 10
+  },
+  {
+    "category": "классика",
+    "name": "Классика2",
+    "image": "product/product-41.jpg",
+    "short_desc": "Краткое описание классика2",
+    "description": "Длинное красивое описание для товара классика2",
+    "price": 1200.0,
+    "quantity": 10
+  }
+]
