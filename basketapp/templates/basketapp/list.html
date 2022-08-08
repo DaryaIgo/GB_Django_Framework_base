@@ -1,0 +1,16 @@
+{% extends 'basketapp/base.html' %}
+{% load static %}
+
+{% block js %}
+    <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'js/basket.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+    <div class="basket_list">
+        {% include 'basketapp/includes/inc_basket_list.html' %}
+    </div>
+    <button class="btn btn-round">
+        <a href="{% url 'index' %}">На главную</a>
+    </button>
+{% endblock %}
